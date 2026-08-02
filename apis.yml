@@ -1,8 +1,27 @@
 aid: tomfoolery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tomfoolery.png
 name: Tomfoolery
-description: Tomfoolery is a company surfaced as a portfolio company of a16z, battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Tomfoolery, Inc. was a San Francisco mobile-app lab founded in 2012 by
+  Sol Lipman (Chief Product Officer) and Kakul Srivastava (CEO), a team of ex-Yahoo
+  and ex-AOL executives building consumer-grade, mobile-first collaboration apps for
+  the enterprise. Its debut product was Anchor, a real-time conversation platform
+  meant to be a central hub for work discussions, followed by an app called Action.
+  The company raised roughly $1.7M (investors included Andreessen Horowitz) before
+  being acquired by Yahoo in January 2014, after which the Anchor app was shut down.
+  Tomfoolery is now a defunct/deadpooled company with no live website, developer portal,
+  or public API surface. It was surfaced as a VC portfolio company and added to the
+  API Evangelist network as a stub; enrichment confirms there is no API to profile.
 url: https://raw.githubusercontent.com/api-evangelist/tomfoolery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +30,39 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Yahoo in January 2014; Anchor app shut down. Company deadpooled.
+x-founded: '2012'
+x-headquarters: San Francisco, California, United States
+x-founders:
+- Sol Lipman
+- Kakul Srivastava
+x-products:
+- Anchor
+- Action
+x-acquired-by: Yahoo
+x-acquired-date: '2014-01'
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Enterprise
+- Collaboration
+- Messaging
+- Mobile
+- Productivity
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
